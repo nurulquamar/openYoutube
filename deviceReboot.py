@@ -1,3 +1,3 @@
 import commands
-dumpsys_output=commands.getstatusoutput('adb reboot')
+dumpsys_output=commands.getstatusoutput('dir')
 print dumpsys_output
